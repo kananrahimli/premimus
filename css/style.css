@@ -571,7 +571,7 @@ footer .gallery li figure figcaption a{ color:#fff;}
 footer .gallery li figure figcaption i{ margin-top:20%; display:inline-block; font-size:30px;}
 footer .gallery li figure:hover figcaption{ opacity:1;}
 footer  form{ width:100%; float:left;}
-footer  form input[type="text"]{ width:100%; max-width:280px;  height:54px; border:none; padding:0 10px; margin-bottom:6px;}
+footer  form input[type="text"]{ width:100%; max-width:280px; color: #000; height:54px; border:none; padding:0 10px; margin-bottom:6px;}
 footer  form button[type="submit"]{  height:54px; border:none; background:#00cadf; padding:0 20px; margin-bottom:6px;}
 
 
