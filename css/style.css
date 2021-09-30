@@ -289,7 +289,7 @@ header video{min-width:100%; min-height:100%; transform: scale(1.3); float:left;
 .navbar-default{ height:85px; padding-top:4px; border-radius:0; background:url(../images/rainbow-bar.jpg) top repeat-x; border-bottom:1px solid rgba(255,255,255,0.4);}
 .navbar-default {-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;}
 .navbar-default .navbar-brand{ height:auto;}
-.navbar-default .navbar-brand img{ height:50px; margin-top:5px;}
+.navbar-default .navbar-brand img{ height:200px; position: fixed; top: -60px; left: 0;}
 .navbar-default .navbar-nav{ float:right;}
 .navbar-default .navbar-nav>li{ float:left;}
 .navbar-default .navbar-nav>li>a{ padding-top:30px; padding-bottom:30px; color:#777; font-weight:700;}
@@ -325,6 +325,7 @@ header video{min-width:100%; min-height:100%; transform: scale(1.3); float:left;
 
 /* SERVICES */
 .services{ width:100%; float:left; padding:100px 0;}
+.services.no-padding-top{ width:100%; float:left; padding:0px 0 100px; }
 .services .box{ width:100%; padding:40px 20px; margin-bottom:40px; position:relative;}
 .services *{-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;}
 .services .box:hover img{ margin-bottom:45px;}
@@ -335,7 +336,7 @@ header video{min-width:100%; min-height:100%; transform: scale(1.3); float:left;
 	height: 0;
 	border-style: solid;
 	border-width: 0 0 60px 60px;
-	border-color: transparent transparent #290FBA transparent;}
+	border-color: transparent transparent #2b3e5d transparent;}
 .services .box  .fa-expand-alt{
 	position: absolute;
 	right: 8px;
@@ -583,7 +584,7 @@ footer  form button[type="submit"]{  height:54px; border:none; background:#00cad
 
 @media only screen and (max-width: 989px), only screen and (max-device-width: 989px) {
 	
-.navbar-default .navbar-brand img{ height:30px; margin-top: 10px;}
+	.navbar-default .navbar-brand img{ height:150px; position: fixed; top: -40px; left: -50px;}
 .navbar-default .nav>li>a{ padding:30px 10px;}
 .latest-works ul li{ width:50%;}
 .works ul li{ width:50%;}
