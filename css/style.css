@@ -410,12 +410,12 @@ header video{min-width:100%; min-height:100%; transform: scale(1.3); float:left;
 .works .works-filter a.current{ border-bottom:2px solid #febd0e;}
 .works ul{ width:100%; float:left;}
 .works ul.spacing{ width:100%;}
-.works ul.spacing li{ padding:10px;}
+.works ul.spacing li{ padding:10px 40px;}
 .works ul.masonry{ width:100%;}
 .works ul li{ width:50%; float:left;}
-.works ul li figure{ width:100%; height:100%; float:left; position:relative;}
+.works ul li figure{ width:100%; height:40rem; float:left; position:relative;}
 .works ul li figure:hover figcaption{ opacity:1; padding:10px;}
-.works ul li figure img{ width:100%; float:left;}
+.works ul li figure img{ width:100%; height: 100%; object-fit: cover; float:left;}
 .works ul li figure figcaption{ width:100%; height:100%; position:absolute; left:0; top:0; opacity:0;}
 .works ul li figure figcaption h4{ font-weight:700; color:#fff; font-size:20px;}
 .works ul li figure figcaption h4 a{color:#fff;}
