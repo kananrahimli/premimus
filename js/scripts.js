@@ -133,7 +133,7 @@
 			var goTo = this.getAttribute("href"); 
 			setTimeout(function(){
 			window.location = goTo;
-			},1000);       
+			},0);       
 			});
 		});	
 	
