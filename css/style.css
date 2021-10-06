@@ -690,7 +690,7 @@ header .slide-content h4{font-size: 20px;}
 	margin-bottom: 1rem;
 }
 
-.inner .office,.fa-laptop,.fa-laptop-house,.fa-stamp, .fa-digital-ocean{
+.inner .fa-laptop,.fa-laptop-house,.fa-stamp, .fa-digital-ocean{
 	font-size: 7rem;
 	color: #ffffff;
 	margin-bottom: 3rem !important;
